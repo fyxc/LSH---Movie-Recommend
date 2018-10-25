@@ -5,5 +5,5 @@ In the sample. there are 100 different movies, numbered from 0 to 99.A user is r
 
 Assumption:
 1. For each user, obtain a signature of 20 values
-2. i-th hash function for the signature: h(x,i) = (3x + 13i) % 100
+2. i-th hash function for the signature: h(x,i) = (3x + 13i) % 100; x is the original row number in the matrix
 3. the signature is divided into 5 bands, with 4 values in each band
